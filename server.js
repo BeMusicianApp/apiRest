@@ -16,7 +16,7 @@ const corsOption = {
   credentials: true,
 }
 
-
+const port = process.env.PORT || 5006
 app.use(
   cors(corsOption)
 );
