@@ -1,0 +1,1 @@
+exports.appuser = require('./appuser.controller.js');
